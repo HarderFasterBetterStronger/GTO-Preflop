@@ -1,0 +1,49 @@
+/* Reset some default styling */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    background-color: #f5f5f5;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+ 
+  
+
+  section {
+    min-height: calc(100% - 60px); /* Adjust the margin-bottom value to create space for the footer */
+    padding-bottom: 60px; /* Adjust the padding-bottom value to create space for the footer */
+  }
+
+
+  
+  @media (max-width: 992px) { 
+    #picture {
+        width: 600;
+        height: 400;
+    }
+   }

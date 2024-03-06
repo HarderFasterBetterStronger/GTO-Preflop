@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Pictures to Buttons</title>
+</head>
+<body>
+  <button class="pictureButton" data-image="path_to_image1.jpg">Button 1</button>
+  <button class="pictureButton" data-image="path_to_image2.jpg">Button 2</button>
+  <button class="pictureButton" data-image="path_to_image3.jpg">Button 3</button>
+
+  <img id="picture" src="" style="display: none;">
+
+  <script>
+    var pictureButtons = document.querySelectorAll('.pictureButton');
+    var picture = document.getElementById('picture');
+
+    pictureButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var imageSource = this.getAttribute('data-image');
+        picture.src = imageSource;
+        picture.style.display = 'block';
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Grid Example</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <script>
+        for (var i = 1; i <= 36; i++) {
+          document.write('<div class="col">' + i + '</div>');
+          if (i % 6 === 0) {
+            document.write('</div><div class="row">');
+          }
+        }
+      </script>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
