@@ -20,51 +20,51 @@ for (var i = 1; i <= 36; i++) {
     //first row
     if (r == 0){
         column.textContent = position1[c];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+".png");
         
     }
     //right triangle
     else if (c > 0 && r == 1){
         column.textContent = situation1[0];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
 
     }
     else if (c>1 && r==2){
         column.textContent = situation1[1];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
     }
     else if (c>2 && r==3){
         column.textContent = situation1[2];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
     }
     else if (c>3 && r==4){
         column.textContent = situation1[3];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
     }
     else if (c>4 && r==5){
         column.textContent = situation1[4];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r-1]+".png");
     }
     //left triangle
     else if (c <= 0 && r == 1){
         column.textContent = situation2[0];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
     }
     else if (c<=1 && r==2){
         column.textContent = situation2[1];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
     }
     else if (c<=2 && r==3){
         column.textContent = situation2[2];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
     }
     else if (c<=3 && r==4){
         column.textContent = situation2[3];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
     }
     else if (c<=4 && r==5){
         column.textContent = situation2[4];
-        column.setAttribute('data-image', "/res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
+        column.setAttribute('data-image', "./res/preflop-R&C/R&C simple 2.5X/"+position1[c]+" vs "+position1[r]+".png");
     }
     
     
