@@ -1,0 +1,28 @@
+.table-outline th,
+        .table-outline td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .table-outline thead th {
+            border-bottom: 2px solid #ccc;
+        }
+
+        .table-outline .disabled {
+            background-color: #f8f9fa;
+            opacity: 0.5;
+        }
+
+
+section {
+    min-height: calc(100% - 60px); /* Adjust the margin-bottom value to create space for the footer */
+    padding-bottom: 60px; /* Adjust the padding-bottom value to create space for the footer */
+    }
+
+.table .grid-item {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}

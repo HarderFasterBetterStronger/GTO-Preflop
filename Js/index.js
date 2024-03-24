@@ -208,5 +208,8 @@ for (var i = 1; i <= 36; i++) {
 
 });
 
-
+function goToF() {
+    // Redirect to another page
+    window.location.href = "frequency.html";
+}
 

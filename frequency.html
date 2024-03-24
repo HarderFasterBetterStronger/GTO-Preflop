@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frequency Table</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="bg-dark text-white py-2">
+    <div class="container">
+      <h1>Frequency Table</h1>
+    </div>
+  </header>
+
+  <div class="container my-4">
+    <div class="row">
+        <div class="col-12">
+            <button class="btn btn-outline-success" onclick="goToI()">back</button>
+        </div>
+    </div>
+    </div>
+
+  <section>
+
+    <div class="container">
+        <h2 class="text-center my-2">frequency table</h2>
+        <h4 class="mx-3">RFI</h4>
+        <table class="table table-outline text-center">
+            <thead>
+                <tr>
+                    <th>UTG</th>
+                    <th>MP</th>
+                    <th>CO</th>
+                    <th>BTN</th>
+                    <th>SB</th>
+                    <th class="disabled">BB</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>18.7%</td>
+                    <td>23.7%</td>
+                    <td>30.9%</td>
+                    <td>45.8%</td>
+                    <td>44.9%</td>
+                    <td class="disabled"></td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h4 class="mx-3">Facing RFI</h4>
+        <table class="table table-outline text-center">
+            <thead>
+                <tr>
+                    <th class="disabled"></th>
+                    <th class="disabled">UTG</th>
+                    <th>MP</th>
+                    <th>CO</th>
+                    <th>BTN</th>
+                    <th>SB</th>
+                    <th>BB</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="grid-item">UTG open</td>
+                    <td class="disabled"></td>
+                    <td>Raise 8.2%</td>
+                    <td>Raise 8.5%</td>
+                    <td>Raise 7.5% | Call 4.3%</td>
+                    <td>Raise 7%</td>
+                    <td>Raise 4.6% | Call 19.1%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">MP open</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Raise 9.8%</td>
+                    <td>Raise 9% | Call 4.4%</td>
+                    <td>Raise 8.5%</td>
+                    <td>Raise 6.3% | Call 20.5%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">CO open</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Raise 11.2% | Call 4.3%</td>
+                    <td>Raise 10.2%</td>
+                    <td>Raise 8.8% | Call 23.2%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">BTN open</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Raise 13.9%</td>
+                    <td>Raise 12% | Call 30.6%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">SB open</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Raise 20.6% | Call 28.6%</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h4 class="mx-3">Facing 3Bet</h4>
+        <table class="table table-outline text-center">
+            <thead>
+                <tr>
+                    <th class="disabled"></th>
+                    <th>UTG</th>
+                    <th>MP</th>
+                    <th>CO</th>
+                    <th>BTN</th>
+                    <th>SB</th>
+                    <th>BB</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="grid-item disabled">UTG 3bet</td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                </tr>
+                <tr>
+                    <td class="grid-item">MP 3bet</td>
+                    <td>Raise 17.8% | Call 23.5%</td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                </tr>
+                <tr>
+                    <td class="grid-item">CO 3bet</td>
+                    <td>Raise 19.9% | Call 17.8%</td>
+                    <td>Raise 19% | Call 16.2%</td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                </tr>
+                <tr>
+                    <td class="grid-item">BTN 3bet</td>
+                    <td>Raise 18.7% | Call 21.2%</td>
+                    <td>Raise 18.7% | Call 18.4%</td>
+                    <td>Raise 17.7% | Call 16.8%</td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                </tr>
+                <tr>
+                    <td class="grid-item">SB 3bet</td>
+                    <td>Raise 12.2% | Call 25.7%</td>
+                    <td>Raise 12.2% | Call 24.8%</td>
+                    <td>Raise 12.1% | Call 23.4%</td>
+                    <td>Raise 11.9% | Call 24.7%</td>
+                    <td class="disabled"></td>
+                    <td class="disabled"></td>
+                </tr>
+
+                <tr>
+                    <td class="grid-item">BB 3bet</td>
+                    <td>Raise 8.4% | Call 30.1%</td>
+                    <td>Raise 8.2% | Call 30.2%</td>
+                    <td>Raise 8.3% | Call 29.8%</td>
+                    <td>Raise 9.4% | Call 29.4%</td>
+                    <td>Raise 22.3% | Call 14.3%</td>
+                    <td class="disabled"></td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h4 class="mx-3">Facing 4Bet</h4>
+        <table class="table table-outline text-center">
+            <thead>
+                <tr>
+                    <th class="disabled"></th>
+                    <th class="disabled">UTG</th>
+                    <th>MP</th>
+                    <th>CO</th>
+                    <th>BTN</th>
+                    <th>SB</th>
+                    <th>BB</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="grid-item">UTG 4Bet</td>
+                    <td class="disabled"></td>
+                    <td>Allin 15.8% | Call 37.3%</td>
+                    <td>Allin 17.7% | Call 32.6%</td>
+                    <td>Allin 18.9% | Call 28.3%</td>
+                    <td>Allin 27.1% | Call 23.3%</td>
+                    <td>Allin 15.5% | Raise 8.5% | Call 23.5%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">MP 4Bet</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Allin 14.9% | Call 36.7%</td>
+                    <td>Allin 17.9% | Call 28.7%</td>
+                    <td>Allin 19.6% | Raise 7% | Call 23.6%</td>
+                    <td>Allin 16.6% | Raise 10.1% | Call 18.3%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">CO 4Bet</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Allin 16.6% | Raise 0.2% | Call 30.4%</td>
+                    <td>Allin 14.9% | Raise 13.1% | Call 19.8%</td>
+                    <td>Allin 16.1% | Raise 10.9% | Call 17.6%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">BTN 4Bet</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Allin 19.7% | Raise 5.2% | Call 27.9%</td>
+                    <td>Allin 12.3% | Raise 12.2% | Call 23.2%</td>
+                </tr>
+                <tr>
+                    <td class="grid-item">SB 4Bet</td>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <th class="disabled"></th>
+                    <td>Allin 9.6% | Raise 0.5% | Call 56.2%</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+  </section>
+
+  <footer class="bg-dark text-white py-2 fixed-bottom text-muted">
+    <div class="container">
+      <p class="text-center"></p>
+    </div>
+  </footer>
+
+  
+  <script src="Js/res/jquery-3.7.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="Js/frequency.js"></script>
+  <link rel="stylesheet" type="text/css" href="frequency.css">
+  
+</body>
+</html>
